@@ -95,7 +95,7 @@ table {
     margin-bottom:40px;
     width: 100%;
 
-    tbody > tr:nth-child(odd) > td, 
+    tbody > tr:nth-child(odd) > td,
     tbody > tr:nth-child(odd) > th {
         background-color: #f7f7f3;
     }
@@ -239,8 +239,9 @@ table {
 .post-title {
     font-size: 52px;
     font-weight: 700;
-    margin: 15px 0;
+    margin: 30px 0;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .post-date,
@@ -250,14 +251,6 @@ table {
     font-weight: 600;
     line-height: 1;
     margin: 25px 0 0;
-
-    &:after {
-        border-bottom: 1px dotted $secondary;
-        content: "";
-        display: block;
-        margin: 40px auto 0;
-        width: 100px;
-    }
 }
 
 .post-content {
